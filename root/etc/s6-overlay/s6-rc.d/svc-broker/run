@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # sleep for selkies
 echo "[svc-broker] waiting for selkies control plane at ${SELKIES_CONTROL_URL}"

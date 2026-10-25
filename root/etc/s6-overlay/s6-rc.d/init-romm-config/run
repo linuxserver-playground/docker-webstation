@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # ensure master token is set
 if [ -z "${SELKIES_MASTER_TOKEN}" ]; then
