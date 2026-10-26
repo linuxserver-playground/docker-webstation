@@ -14,6 +14,11 @@ release:
   branch: master
   tag: latest
   channel: stable
+  tags:
+  - tag: latest
+    description: Stable Webstation releases.
+  - tag: romm
+    description: romm-broker, the sidecar for collaborative streaming from the ROMM web interface.
 
 build:
   base: selkies

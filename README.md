@@ -47,6 +47,15 @@ The architectures supported by this image are:
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ❌ | |
 
+## Version Tags
+
+This image provides various versions that are available via tags. Please read the descriptions carefully and exercise caution when using unstable or development tags.
+
+| Tag | Available | Description |
+| :----: | :----: |--- |
+| latest | ✅ | Stable Webstation releases. |
+| romm | ✅ | romm-broker, the sidecar for collaborative streaming from the ROMM web interface. |
+
 ## Application Setup
 
 The application can be accessed at:
