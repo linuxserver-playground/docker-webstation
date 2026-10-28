@@ -29,6 +29,7 @@ test:
   startup_timeout: 120
   env:
     TZ: US/Pacific
+    BROKER_SECRET: TESTING
   web:
     port: 3001
     scheme: https
